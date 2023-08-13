@@ -6,7 +6,7 @@
 
 
 /**
- * * main - Prints if number is positive, zero or negative 
+ * main - Prints if number is positive, zero or negative
  * Return: Always (Success)
  *
  */
@@ -14,7 +14,7 @@
 int main(void)
 
 {
- 	int n;
+	int n;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -32,5 +32,4 @@ int main(void)
 	printf("%d is negative\n", n);
 	}
 	return (0);
-
 }
